@@ -49,5 +49,7 @@ to run the file download the clean kaggle data csv IRCTC_cleaned.csv
 run parsed data 
 make a Neo4j account and copy id pass
 run cascade analysis and the nodes will be created
+venv\Scripts\activate where you have saved all your files
+open the terminal and select that same location
 run the dashboard
 
