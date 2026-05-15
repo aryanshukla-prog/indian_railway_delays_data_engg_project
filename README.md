@@ -43,3 +43,11 @@ SQLite — local flat storage during development
 Neo4j AuraDB — graph database, free cloud tier
 Cypher — graph traversal queries
 Streamlit + Plotly — dashboard
+
+
+to run the file download the clean kaggle data csv IRCTC_cleaned.csv
+run parsed data 
+make a Neo4j account and copy id pass
+run cascade analysis and the nodes will be created
+run the dashboard
+
