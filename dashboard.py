@@ -226,9 +226,11 @@ with tab4:
                         f"**{route['is_hotspot'].sum()} high-risk junctions** on this route")
 
             def highlight_hotspot(row):
-                if row["is_hotspot"]:
+                if row["High-Risk Junction"]:
                     return ["background-color: #fff3cd"] * len(row)
                 return [""] * len(row)
+
+          
 
             display = route[["stop_sequence","station_name","arrival_time","departure_time","is_hotspot"]].rename(columns={
                 "stop_sequence":  "Stop #",
